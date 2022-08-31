@@ -1284,7 +1284,7 @@ class _SfSliderState extends State<SfSlider> with TickerProviderStateMixin {
                   : themeData.colorScheme.onSurface.withOpacity(0.32)),
       tooltipTextStyle: sliderThemeData.tooltipTextStyle ??
           themeData.textTheme.bodyText1!
-              .copyWith(color: themeData.colorScheme.surface),
+              .copyWith(color: themeData.colorScheme.surface, fontSize: 12),
       inactiveTrackColor: widget.inactiveColor ??
           sliderThemeData.inactiveTrackColor ??
           themeData.colorScheme.primary.withOpacity(0.24),
