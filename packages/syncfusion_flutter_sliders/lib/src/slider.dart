@@ -1336,7 +1336,7 @@ class _SfSliderState extends State<SfSlider> with TickerProviderStateMixin {
               themeData.colorScheme.surface),
       tooltipBackgroundColor: sliderThemeData.tooltipBackgroundColor ??
           (themeData.brightness == Brightness.light
-              ? const Color.fromRGBO(97, 97, 97, 1)
+              ? const Color.fromRGBO(0, 0, 0, 0.75)
               : const Color.fromRGBO(224, 224, 224, 1)),
       thumbStrokeColor: sliderThemeData.thumbStrokeColor,
       activeDividerStrokeColor: sliderThemeData.activeDividerStrokeColor,
