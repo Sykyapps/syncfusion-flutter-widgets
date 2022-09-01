@@ -15,9 +15,9 @@ const double defaultThumbRadius = 10.0;
 const double moveNeckValue = 0.25;
 const double textPadding = 8.0;
 
-const Offset tooltipTextPadding = Offset(6, 2);
-const double tooltipTriangleHeight = 7;
-const double tooltipTriangleWidth = 12;
+const Offset tooltipTextPadding = Offset(12, 4);
+const double tooltipTriangleHeight = 6;
+const double tooltipTriangleWidth = 6;
 const double minTooltipWidth = 47.0;
 const double minTooltipHeight = 20.0;
 const double cornerRadius = 4.0;
